@@ -153,6 +153,6 @@ The path of tektok config map is "~/manuela-dev/tekton/configmaps/environment"
 
 ```bash
 cd ~/manuela-dev
-oc apply -k tekton/secrets
-oc apply -k tekton
+oc apply -k tekton/secrets -n manuela-ci
+oc apply -k tekton -n manuela-ci
 ```
