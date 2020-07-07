@@ -130,7 +130,7 @@ sed "s/token: cmVwbGFjZW1l/token: $(echo -n $GITHUB_PERSONAL_ACCESS_TOKEN|base64
 ```bash
 cd ~/manuela-dev
 export GITHUB_USER=<ChangeMe>
-sed "s/user: cmVwbGFjZW1l/user: $(echo -n $GITHUB_USER|base64)/" tekton/secrets/github-example.yaml >tekton/secrets/github.yaml
+sed -i "s/user: cmVwbGFjZW1l/user: $(echo -n $GITHUB_USER|base64)/" tekton/secrets/github.yaml
 ```
 
 - ArgoCD Secret:
