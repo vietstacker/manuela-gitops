@@ -6,5 +6,5 @@ resources:
 # - odh-instance.yaml
 # - seldon-deployment-crd.yaml
 - seldon-subscription-v1.2.0.yaml
-- iot-anomaly-detection-route.yaml    
-- iot-anomaly-detection-seldon.yaml
+- iot-anomaly-detection-seldon.yaml    
+- iot-anomaly-detection-route.yaml

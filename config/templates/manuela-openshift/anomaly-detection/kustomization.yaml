@@ -8,4 +8,4 @@ resources:
 - anomaly-detection-is.yaml
 images:
 - name: anomaly-detection
-  newTag: 0.3.2-2
+  newTag: 0.3.2-1
