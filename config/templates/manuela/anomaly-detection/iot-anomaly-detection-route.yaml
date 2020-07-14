@@ -10,6 +10,3 @@ spec:
   to:
     kind: Service
     name: anomaly-detection-predictor-anomaly-detection
-  tls:
-    insecureEdgeTerminationPolicy: Allow
-    termination: edge
